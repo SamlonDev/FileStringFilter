@@ -4,7 +4,7 @@
 #include <string>
 #include <chrono>
 #include "file_info.h"
-#include "salmonFiltuh.h"
+#include "config.h"
 #include "search_utils.h"
 
 class AdaptiveFileProcessor {

@@ -1,0 +1,1 @@
+This program filters files in a directory based on a set of patterns in the FileFilter.rules file.

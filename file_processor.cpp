@@ -11,7 +11,7 @@
 #include <iomanip>
 #include <sstream>
 #include "file_info.h"
-#include "salmonFiltuh.h"
+#include "config.h"
 #include "search_utils.h"
 #include "file_processor.h"
 

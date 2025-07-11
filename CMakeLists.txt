@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(SalmonFiltuh VERSION 1.0 LANGUAGES CXX)
+project(FileFilter VERSION 1.0 LANGUAGES CXX)
 
 # Set C++ standard and required options
 set(CMAKE_CXX_STANDARD 23)
@@ -20,7 +20,7 @@ endif()
 
 # Add executable
 add_executable(${PROJECT_NAME}
-    salmonFiltuh.cpp
+    main.cpp
     file_processor.cpp
     search_utils.cpp
 )

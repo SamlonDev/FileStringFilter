@@ -2,9 +2,8 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include "file_processor.h"
-#include "salmonFiltuh.h"
 
-const char* NAME = "SalmonFiltuh";
+
 
 int main() {
     try {

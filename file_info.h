@@ -1,6 +1,6 @@
-
 #ifndef FILEINFO_H
 #define FILEINFO_H
+
 #include <cstddef>
 struct FileInfo {
     size_t size;
@@ -13,4 +13,5 @@ enum class ProcessingMethod {
     SMALL_FILE_OPTIMIZED,    // < 50MB: getline() with string operations
     LARGE_FILE_OPTIMIZED     // > 500MB: character-by-character with fixed buffers
 };
-#endif
+
+#endif // FILEINFO_H
